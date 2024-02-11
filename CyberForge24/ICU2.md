@@ -1,0 +1,4 @@
+You have been hired to analyze [a network capture](https://icc.metaproblems.com/253c5080c25262441207af0c68bafe51/ICU2.pcap) of some suspicious traffic. The internal security team have narrowed down the the victim to a single internal IP address, and they suspect it is some sort of DNS exfiltration. Can you find out what the attacker is trying to steal?
+
+Solution:
+Using the first part of the domain in the packet you get a base64 encoded message. Most of it is junk except for a select few packets. The first packet in the capture had a subdomain base64 encoded message that said "The flag". The DNS address in the packets differ from the bogus packets so using the Wireshark filter I laid out all the useful base64 encoded messages. Using cyber chef I put together all the pieces and the flag was revealed.
