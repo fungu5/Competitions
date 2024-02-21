@@ -1,6 +1,7 @@
 # CTF
 <h3> Challenge de-compressed</h3>
 - Used Zipped Stegonography to extract secret.txt file
+
 - Helpful articles such as this one led us to believe we have the uncode the secret.txt
   https://stackoverflow.com/questions/345562/can-you-hide-data-in-text
 - After filtering just the plain text into this tool we are able to uncover the flag
