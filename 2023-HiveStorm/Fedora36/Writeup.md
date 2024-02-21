@@ -1,4 +1,5 @@
 Forensics Question 1: Need to recover image file and find info about it...don't know and terminal commands are not working
+
 -Unknown file sdc and sda
 -Tried to open with Archive Manager and Shotwell image and did not open
 -Going to try to look at binary header to see file type
